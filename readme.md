@@ -1,12 +1,13 @@
-* Required Python Package:
+# Required Python Package:
 	- ogr
 	- osr
 	- matplotlib
 	- rasterio
 	- geopandas
 
-* Use case:
+# Usage:
 
+```
 usage: challenge.py [-h] [--input_feature INPUT_FEATURE]
                     [--input_dsm INPUT_DSM] [--buffer_dist BUFFER_DIST]
 
@@ -21,3 +22,9 @@ optional arguments:
                         Input Digital Surface Model
   --buffer_dist BUFFER_DIST
                         Buffer Distance From Input Feature
+			
+			
+```
+
+# Command Line
+* python challenge.py --input_feature <input_feature> --input_dsm <input_dsm> --buffer_dist <buffer_distance>
